@@ -21,14 +21,13 @@ Especially for individuals infected with different host species, identifying mix
   3. Count: After a KNN, for each sample, count the neighbors that were pseudo mixtures (n_pseduo_neighbors).
   4. Remove: Look at the ratio of n_pseduo_neighbors/n_all_neighbors, if it exceeds a cutoff, for example 60%, remove this sample from the next round of KNN. 
   5. Repeat: iterate i to iv until no samples exceed the cutoff.
+  
+Below is an example of the iterative KNN method detected 19/20 samples mixing at various ratios of two strains.
 
 <p float="left">
-<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_1_scatterplot-1.png" width="280" />
-<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_2_scatterplot-1.png" width="280" /> 
-<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_3_scatterplot-1.png" width="280" />
-<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_4_scatterplot-1.png" width="280" /> 
-<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_5_scatterplot-1.png" width="280" />
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_1_scatterplot-1.png" width="270" />
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_2_scatterplot-1.png" width="270" /> 
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_3_scatterplot-1.png" width="270" />
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_4_scatterplot-1.png" width="270" /> 
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_5_scatterplot-1.png" width="270" />
 </p>
-
-Scatterplots shows an example of the iterative KNN method detected 19/20 samples mixing at various ratios of two strains.
-
