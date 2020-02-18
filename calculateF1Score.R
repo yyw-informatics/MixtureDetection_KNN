@@ -1,8 +1,8 @@
 
-calculateF1Score <- function(original_dat_labeled) {
-    rowData(original_dat_labeled)$truth <- as.logical(!apply(rowData(original_dat_labeled)$mixture, 1, function(x) sum(x == 1 )))
-    confusion_mat <- confusionMatrix(data = as.factor(rowData(original_dat_labeled)$is_mixed), 
-                             reference = as.factor(rowData(original_dat_labeled)$truth), 
+calculateF1Score <- function(x_labeled) {
+    rowData(x_labeled)$truth <- as.logical(!apply(rowData(x_labeled)$mixture, 1, function(x) sum(x == 1 )))
+    confusion_mat <- confusionMatrix(data = as.factor(rowData(x_labeled)$is_mixed), 
+                             reference = as.factor(rowData(x_labeled)$truth), 
                              positive = "TRUE")$table
     TN <- confusion_mat[1]
     FP <- confusion_mat[2]
