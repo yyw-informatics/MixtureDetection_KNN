@@ -17,4 +17,4 @@ generatePseudoMixture <- function(x, n_syn_mixture, n_max_mixture) {
   rowData(pseudo)$is_pseudo <- TRUE
   rowData(pseudo)$is_suspect <- FALSE
   return(pseudo)
-} # 
+} 
