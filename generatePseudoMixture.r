@@ -5,12 +5,11 @@ generatePseudoMixture <- function(x, n_syn_mixture, n_max_mixture) {
   D <- assays(x)$depth
   Alt_count <- assays(x)$count 
   
-  samples_to_mix <- replicate(n_syn_mixture, sample(n_sample, n_max_mixture)) # pick samples
+  samples_to_mix <- replicate(n_syn_mixture, sample(n_sample, n_max_mixture)) 
   
-  
-  syn_alt_count <- matrix(0, nrow = n_syn_mixture, ncol = n_snps) # mix alt read count
-  syn_depth <- matrix(0, nrow = n_syn_mixture, ncol = n_snps)     # mix depth
-  for (m in 1:ncol(samples_to_mix)){ # for each pseudo mixture sample
+  syn_alt_count <- matrix(0, nrow = n_syn_mixture, ncol = n_snps) 
+  syn_depth <- matrix(0, nrow = n_syn_mixture, ncol = n_snps)   
+  for (m in 1:ncol(samples_to_mix)){ 
     syn_alt_count[m,] <- Matrix::colSums(Alt_count[samples_to_mix[,m], ]) / n_max_mixture 
     syn_depth[m,] <- Matrix::colSums(D[samples_to_mix[, m],]) / n_max_mixture            
   }
