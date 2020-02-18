@@ -1,5 +1,5 @@
 
-calculateF1Score <- function(x_labeled) {
+summaryF1 <- function(x_labeled) {
     rowData(x_labeled)$truth <- as.logical(!apply(rowData(x_labeled)$mixture, 1, function(x) sum(x == 1 )))
     confusion_mat <- confusionMatrix(data = as.factor(rowData(x_labeled)$is_mixed), 
                              reference = as.factor(rowData(x_labeled)$truth), 
