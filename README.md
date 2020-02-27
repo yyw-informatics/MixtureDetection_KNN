@@ -31,3 +31,10 @@ Below is an example of the iterative KNN method detected 19/20 samples mixing at
 <img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_4_scatterplot-1.png" width="270" /> 
 <img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_5_scatterplot-1.png" width="270" />
 </p>
+
+Below is a barplot showing the strain composition within each sample
+<p float="left">
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/Demix_results.png" width="1000" />
+</p>
+
+
