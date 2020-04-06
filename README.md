@@ -18,8 +18,8 @@ Especially for individuals infected with different host species, identifying mix
 - The Iterative KNN has 5 steps:
   1. Mix: Select samples from each cluster and mix these samples to create pseudo mixtures.
   2. Merge: Mergen pseudo mixtures with original data
-  3. Count: After a KNN, for each sample, count the neighbors that were pseudo mixtures (n_pseduo_neighbors).
-  4. Remove: Look at the ratio of n_pseduo_neighbors/n_all_neighbors, if it exceeds a cutoff, for example 60%, remove this sample from the next round of KNN. 
+  3. Calculate: After a KNN, for each sample, calculate q, the adjusted praction of neighbors that were pseudo mixtures (n_pseduo_neighbors).
+  4. Remove: Automatically thresolding q using the bimodal distributions, and remove samples exceeding the thresold from the next round of KNN. 
   5. Repeat: iterate i to iv until no samples exceed the cutoff.
 <p float="left">
 <img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/Process.png" width="700" />
