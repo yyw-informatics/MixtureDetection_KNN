@@ -26,7 +26,7 @@ Especially for individuals infected with different host species, identifying mix
 </p>
 
   
-Below is an example of the iterative KNN method detected 19/20 samples mixing at various ratios of two strains.
+Below is a simple example of the iterative KNN method detected 19/20 samples mixing at various ratios of two strains.
 
 <p float="left">
 <img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_1_scatterplot-1.png" width="500" />
