@@ -1,4 +1,4 @@
-# Iterative K Nearest Neighbor (KNN) to detect mixtures from Whole genome sequencing (WGS)
+# Iterative Neighborhood detection to classify mixtures from Whole genome sequencing (WGS)
 
 ## Objective:
 Identify WGS samples infected with multiple strains of Mycobacterium bovis (M. bovis) or other slow evolving pathogens
