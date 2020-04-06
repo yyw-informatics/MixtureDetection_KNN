@@ -29,11 +29,11 @@ Especially for individuals infected with different host species, identifying mix
 Below is an example of the iterative KNN method detected 19/20 samples mixing at various ratios of two strains.
 
 <p float="left">
-<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_1_scatterplot-1.png" width="270" />
-<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_2_scatterplot-1.png" width="270" /> 
-<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_3_scatterplot-1.png" width="270" />
-<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_4_scatterplot-1.png" width="270" /> 
-<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_5_scatterplot-1.png" width="270" />
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_1_scatterplot-1.png" width="500" />
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_2_scatterplot-1.png" width="500" /> 
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_3_scatterplot-1.png" width="500" />
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_4_scatterplot-1.png" width="500" /> 
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_5_scatterplot-1.png" width="500" />
 </p>
 
 Below is a barplot showing the strain composition within each sample
