@@ -22,7 +22,7 @@ Especially for individuals infected with different host species, identifying mix
   4. Remove: Look at the ratio of n_pseduo_neighbors/n_all_neighbors, if it exceeds a cutoff, for example 60%, remove this sample from the next round of KNN. 
   5. Repeat: iterate i to iv until no samples exceed the cutoff.
 <p float="left">
-<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/Process.png" width="1000" />
+<img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/Process.png" width="700" />
 </p>
 
   
