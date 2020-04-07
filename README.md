@@ -58,7 +58,7 @@ A total of 19/20 samples mixing at various ratios of two strains were detected c
 <img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/figuresKNN_1_round_5_scatterplot-1.png" width="500" />
 </p>
 
-- Below is a barplot showing the strain abundances within the first ten samples
+- Below is a barplot showing the strain abundances within the first ten samples of three-strains mixtures
 <p float="left">
 <img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/Abundances.png" width="600" />
 </p>
