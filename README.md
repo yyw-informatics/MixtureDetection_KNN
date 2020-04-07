@@ -30,7 +30,7 @@ Especially for individuals infected with different host species, identifying mix
 <img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/InitialData.png" width="400" />
 </p>
 
-  2. Merge: Mergen pseudo mixtures with original data
+  2. Merge: Merge pseudo mixtures with original data
   
 <p float="left">
 <img src="https://github.com/YYW-UMN/MixtureDetection_KNN/blob/master/Embedded.png" width="400" />
