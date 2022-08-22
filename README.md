@@ -1,7 +1,7 @@
 # Iterative Neighborhood detection to classify mixtures from Whole genome sequencing (WGS)
 
 ## Objective:
-Identify WGS samples infected with multiple strains of Mycobacterium bovis (M. bovis) or other slow evolving pathogens
+Identify WGS samples infected with multiple strains of Mycobacterium samples or other slow evolving pathogens
 
 ## Motivation:
 Phylogenetic trees shows the overall ancestral relations between a set of samples. However, the limitation of a tree structure is that each child node can only have one parent node. 
